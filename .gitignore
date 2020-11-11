@@ -130,3 +130,6 @@ dmypy.json
 
 # private data
 config.py
+
+# Visual Studio folder 
+/.vs

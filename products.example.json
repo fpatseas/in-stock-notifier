@@ -1,0 +1,248 @@
+[
+  {
+    "url": "https://www.pharm16.gr/%CF%84%CE%BF-%CF%86%CE%B1%CF%81%CE%BC%CE%B1%CE%BA%CE%B5%CE%B9%CE%BF-%CE%BC%CE%B1%CF%83/%CF%80%CF%81%CF%89%CF%84%CE%B5%CF%83-%CE%B2%CE%BF%CE%B7%CE%B8%CE%B5%CE%B9%CE%B5%CF%83/%CE%BB%CE%BF%CF%83%CE%B9%CE%BF%CE%BD-%CE%BC%CE%B1%CE%BD%CF%84%CE%B7%CE%BB%CE%B1%CE%BA%CE%B9%CE%B1-%CE%BF%CE%B9%CE%BD%CE%BF%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1%CF%84%CE%BF%CF%83.htm",
+    "lookfor": "i.ti-shopping-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.smile-pharmacy.gr/vendors/hartmann/sterillium-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CE%B7%CF%80%CF%84%CE%B9%CE%BA%CE%BF-gel-%CF%87%CE%B5%CF%81%CE%B9%CF%89%CE%BD-475ml-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%BB%CE%B9%CE%B1.htm",
+    "lookfor": "div.addtocartblock > button[disabled]",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.smile-pharmacy.gr/vendors/hartmann/hartmann-sterillium-gel-100ml.htm",
+    "lookfor": "div.addtocartblock > button[disabled]",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.tofarmakeiomou.gr/brands/sterillium/",
+    "lookfor": "button.tocart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://lazosmedical.gr/product/%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CE%B7%CF%80%CF%84%CE%B9%CE%BA%CF%8C-%CF%87%CE%B5%CF%81%CE%B9%CF%8E%CE%BD-sterillium-gel-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%B1%CE%BD%CF%84%CE%BB%CE%AF%CE%B1-475ml/",
+    "lookfor": "button.single_add_to_cart_button",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmakeio-online.gr/sterillium-classic-pure-1000ml-antisiptiko.html",
+    "lookfor": "div.ty-product-block__left button.ty-btn__add-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.mypharmacy.gr/bode-sterillium-gel-apolymantiko-xeriwn-475ml-p-8063",
+    "lookfor": "span.add-to-singlecart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/Sterillium-comfort-gel-antisiptiko-xerion-tis-hartmann-bode-manusept-100-ml",
+    "lookfor": "div.product-detail-main button.fpCart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/Sterillium-gel-antisiptiko-xerion-tis-hartmann-bode-manusept-me-antlia-475ml",
+    "lookfor": "div.product-detail-main button.fpCart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.nikoretzos.gr/apolymantika-antysiptika-aporrypantika/sterillium-antisipiko-xerion-100ml.html",
+    "lookfor": "a#button-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy-care.gr/vendors/hartmann/sterillium-gel-475ml.htm",
+    "lookfor": "div.productPageMainContents button.addtoCartBtn",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacyspot.gr/antimetopisi-provlimaton/protes-voitheies/farmakeia-aand39-voitheion/hartmann-manusept-sterillium-gel-475ml-me-antlia-antisiptiko-xerion-p_1354.html",
+    "lookfor": "div.txtviewCart2 a.txtBuy",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharm16.gr/vendors/hartmann/sterillium-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CE%B7%CF%80%CF%84%CE%B9%CE%BA%CE%BF-gel-%CF%87%CE%B5%CF%81%CE%B9%CF%89%CE%BD-475ml-%CE%BC%CE%B5-%CE%B1%CE%BD%CF%84%CE%BB%CE%B9%CE%B1.htm",
+    "lookfor": ".productInfoMain i.ti-shopping-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.medicalhouse.gr/sterillium-1l.el.aspx",
+    "lookfor": "input#AddToCartBtn",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/ecofarm-o%CE%B9%CE%BD%CF%8C%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1-%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CF%8C-100ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/ecofarm-%CE%BF%CE%B9%CE%BD%CE%BF%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1-%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%BF-95%CE%BF-200ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/ecofarm-alkooloyxos-losion-95o-350ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/ecofarm-alkooloyxos-losion-95-vathmon-250ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/ecofarm-alkooloyxos-losion-70-vathmon-350ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/hartmann-manusept-gel-%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CE%B7%CF%80%CF%84%CE%B9%CE%BA%CF%8C-gel-%CF%87%CE%B5%CF%81%CE%B9%CF%8E%CE%BD-%CE%B1%CE%BD%CF%84%CE%BB%CE%AF%CE%B1-%CE%BC%CE%B5-475ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharmacy295.gr/el/products/manusept-gel-100ml",
+    "lookfor": "a.add-product-to-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.inatural.gr/%CF%84%CE%BF-%CF%86%CE%B1%CF%81%CE%BC%CE%B1%CE%BA%CE%B5%CE%B9%CE%BF-%CE%BC%CE%B1%CF%83/%CF%80%CF%81%CF%89%CF%84%CE%B5%CF%83-%CE%B2%CE%BF%CE%B7%CE%B8%CE%B5%CE%B9%CE%B5%CF%83/%CE%BB%CE%BF%CF%83%CE%B9%CE%BF%CE%BD-%CE%BC%CE%B1%CE%BD%CF%84%CE%B7%CE%BB%CE%B1%CE%BA%CE%B9%CE%B1-%CE%BF%CE%B9%CE%BD%CE%BF%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1%CF%84%CE%BF%CF%83/ecofarm-%CE%B1%CE%BB%CE%BA%CE%BF%CE%BF%CE%BB%CE%BF%CF%85%CF%87%CE%BF%CF%83-%CE%BB%CE%BF%CF%83%CE%B9%CE%BF%CE%BD-70%CB%9A-neutral-350ml.htm",
+    "lookfor": "span.produnavailable",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharm16.gr/vendors/ecofarm/ecofarm-%CE%B1%CE%BB%CE%BA%CE%BF%CE%BF%CE%BB%CE%BF%CF%85%CF%87%CE%BF%CF%83-%CE%BB%CE%BF%CF%83%CE%B9%CE%BF%CE%BD-70%CB%9A-neutral-350ml.htm",
+    "lookfor": "span.produnavailable",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.anosiapharmacy.gr/product/ecofarm-%CE%BF%CE%B9%CE%BD%CF%8C%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1-70o-%CE%B1%CE%BB%CE%BA%CE%BF%CE%BF%CE%BB%CE%BF%CF%8D%CF%87%CE%B1-%CE%BB%CE%BF%CF%83%CE%B9%CF%8C%CE%BD-350-ml-%CE%B4%CF%8E%CF%81",
+    "lookfor": "span.out-of-stock",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.pharm24.gr/dettol-soft-on-skin-hard-on-dirt-antibakthridiako-ygro-kremosapoyno-me-meli-250ml-p-20262.html",
+    "lookfor": "div#sold-out-buttons-wrap",
+    "notifyiffound": false,
+    "skip": true
+  },
+  {
+    "url": "https://www.qpharmacy.gr/hartmann-sterillium-comfort-gel-antisiptiko-xerion-100ml",
+    "lookfor": "button#button-cart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/Dettol-liquid-ygro-antisiptiko-dialyma-250-ml",
+    "lookfor": "button.fpCart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/Dettol-Revitalise-me-Rodi-Rasmperi-250ml",
+    "lookfor": "button.fpCart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/DETTOL-APOLYMANTIKO-SPREI-CRISP-LINEN-400ml-ANTIVAKTIRIDIAKO",
+    "lookfor": "button.fpCart",
+    "notifyiffound": true,
+    "skip": true
+  },
+  {
+    "url": "https://www.oneclickpharmacy.gr/ell/product/DETTOL-ANTLIA-KATHARISMOY-1L-POWER-FRESH-PRASINO-MILO",
+    "lookfor": "button.fpCart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.pharm16.gr/vendors/omron/omron-m2-basic-intellisence-%CE%BD%CE%B5%CE%B1%CF%83-%CE%B3%CE%B5%CE%BD%CE%B9%CE%B1%CF%83-2329019-hem-7120-e.htm",
+    "lookfor": ".productInfoMain i.ti-shopping-cart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.vita4you.gr/el/hartmann-foliodress-loop-50",
+    "lookfor": "button.tocart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://medical.gr/analosima-iatreioy/maskes-kheiroyrgikes-and-prostasias/maskop-mask-gima-with-wrap-around-visor.html",
+    "lookfor": "div.ty-product-block__left button.ty-btn__add-to-cart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.ahealthcare.gr/%CF%87%CE%B5%CE%B9%CF%81%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%B5%CF%82-%CE%BC%CE%B1%CF%83%CE%BA%CE%B5%CF%82-foliodress-mask-comfort-loop-%CE%BC%CF%80%CE%BB%CE%B5-%CE%BC%CE%B5-%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CF%87%CE%BF/",
+    "lookfor": "div.ty-product-block__left button.ty-btn__add-to-cart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.medicalhouse.gr/maskes-hartmann-foliodress-loop.el.aspx",
+    "lookfor": "input#AddToCartBtn",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://bestpharmacy.gr/el/filomask-3-2.html",
+    "lookfor": "span.view-cart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.pharm16.gr/vendors/no-name/filomask-%CE%BC%CE%B1%CF%83%CE%BA%CE%B5%CF%83-%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%BF%CF%85-3-2%CF%84%CE%BC%CF%87-%CE%B4%CF%89%CF%81%CE%BF.htm",
+    "lookfor": ".productInfoMain i.ti-shopping-cart",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://www.utools.gr/%CE%9C%CE%91%CE%A3%CE%9A%CE%95%CE%A3-%CE%A0%CE%A1%CE%9F%CE%A3%CE%A4%CE%91%CE%A3%CE%99%CE%91%CE%A3-FILOMASK-5-TEM-16343",
+    "lookfor": "span.outofstock",
+    "notifyiffound": false,
+    "skip": false
+  },
+  {
+    "url": "https://www.pharmacy128.gr/product/286116-filomask-%CE%BC%CE%AC%CF%83%CE%BA%CE%B5%CF%82-%CF%80%CF%81%CE%BF%CF%83%CF%8E%CF%80%CE%BF%CF%85-3%CF%84%CE%BC%CF%87/",
+    "lookfor": "button.single_add_to_cart_button",
+    "notifyiffound": true,
+    "skip": false
+  },
+  {
+    "url": "https://pureline.gr/products/%CE%BC%CE%B1%CF%83%CE%BA%CE%B1-3%CF%86%CF%85%CE%BB%CE%BB%CF%89%CE%BD-filoskin-%CF%86%CE%BA%CE%BB-5%CF%84%CE%B5%CE%BC?variant=16291302015027",
+    "lookfor": "button#addToCart-product-template[disabled]",
+    "notifyiffound": false,
+    "skip": false
+  },
+  {
+    "url": "https://www.cure4u.gr/Farmakeio-diafora-analosima/filomask-maskes-3-2-doro",
+    "lookfor": "span.product-unavailable",
+    "notifyiffound": false,
+    "skip": false
+  }
+]

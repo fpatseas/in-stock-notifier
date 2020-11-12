@@ -1,5 +1,5 @@
 # Product Stock Notifier
-A Python script that utilizes Selenium to check product stock availability from a list that you have defined, and sends email notification for each available to purchase.
+A Python script that utilizes Selenium to check product stock availability from a list of products that you have defined, and sends email notification for each available to purchase.
 
 ## Getting started
 ```

@@ -29,17 +29,21 @@ def check_stock_changes():
 	for product in products:
 		try:
 			if bool(product["skip"]) == False:
+				send_email = False
 				driver.get(product["url"])
 				sleep(2)
 				
 				found = driver.find_elements_by_css_selector(product["lookfor"])
 				
 				if len(found) > 0 and bool(product["notifyiffound"]) == True:
-					helpers.send_email(product["url"])
+					send_email = True
 				elif len(found) == 0 and bool(product["notifyiffound"]) == False:
-					helpers.send_email(product["url"])
+					send_email = True
 				else:
 					print('Out of stock')
+
+				if send_email and helpers.must_notify(product["url"]):
+					helpers.notify(product["url"])
 		except Exception as e:
 			print(e)
 

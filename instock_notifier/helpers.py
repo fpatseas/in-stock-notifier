@@ -4,35 +4,21 @@ import json
 import config
 import utils
 
-from mailjet_rest import Client
 from datetime import date, datetime
 
-def send_email(url):
-    if must_send(url):
-        try:
-            api_key = config.SMTP_API_KEY
-            api_secret = config.SMTP_API_SECRET
-            mailjet = Client(auth=(api_key, api_secret), version='v3.1')
-            data = {
-                'Messages':
-                [
-                    {
-	                    "From": config.EMAIL_SENDER,
-	                    "To": config.EMAIL_RECIPIENTS,
-	                    "Subject": "In-Stock Product",
-	                    "HTMLPart": "<a href='"+ url +"' target='_blank'>"+ url +"</a>",
-	                    "CustomID": "AppGettingStartedTest"
-                    }
-                ]
-            }
-            mailjet.send.create(data=data)
-            print('Email sent!')
-        except Exception as e:
-            print(e)
-    else:
-        print('Email already sent')
+def notify(url):
+    try:
+        utils.send_email(
+            config.EMAIL_SENDER,
+            config.EMAIL_RECIPIENTS,
+            "In-Stock Product",
+            "<a href='"+ url +"' target='_blank'>"+ url +"</a>")
+
+        print('Email sent!')
+    except Exception as e:
+        print(e)
 			
-def must_send(url):
+def must_notify(url):
     try:
         file = "notifications.json"
         jsonFile = open(file, "r")
@@ -66,19 +52,16 @@ def must_send(url):
 						
             if found == False:
                 notifications.append({ "url": url, "lastsent": datetime.now() })
-			
-            jsonFile = open("notifications.json", "w+")
-            jsonFile.write(json.dumps(data, indent=4, default=utils.json_serial))
-            jsonFile.close()
-
-            return send
         else:
             notifications.append({ "url": url, "lastsent": datetime.now() })
 			
-            jsonFile = open("notifications.json", "w+")
-            jsonFile.write(json.dumps(data, indent=4, default=utils.json_serial))
-            jsonFile.close()
+        jsonFile = open("notifications.json", "w+")
+        jsonFile.write(json.dumps(data, indent=4, default=utils.json_serial))
+        jsonFile.close()
     except Exception as e:
         print(e)
+
+    if send == False:
+        print('Email already sent')
 		
-    return True
+    return send
